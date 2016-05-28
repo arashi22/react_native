@@ -1,0 +1,52 @@
+{
+  "name": "react_native",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest-expo": "~20.0.0",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "firebase": "^4.3.0",
+    "immutable": "^3.8.1",
+    "keymirror": "^0.1.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.47.0",
+    "react-native-button": "^2.1.0",
+    "react-native-drawer": "^2.5.0",
+    "react-native-pie": "^0.3.0",
+    "react-native-popup-dialog": "^0.9.35",
+    "react-native-ui-kitten": "^2.0.1",
+    "react-native-webrtc": "^1.58.2",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-immutable": "^4.0.0",
+    "redux-saga": "^0.15.6",
+    "socket.io-client": "^2.0.3"
+  },
+  "description": "This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).",
+  "main": "App.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arashi22/hobbyproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arashi22/hobbyproject/issues"
+  },
+  "homepage": "https://github.com/arashi22/hobbyproject#readme"
+}
